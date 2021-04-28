@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVER</title>
+    <style>
+        form{
+            display: inline-block;
+        }
+        .로고{
+            position: relative;
+            left: 20px; top: 20px;
+            text-decoration: none;
+            color: #02cf5b;
+            width: 180px;
+            height: 52px;
+            display: inline-block;
+            font-weight: 900;
+            font-size: 40px;
+            padding-right: 0px;
+            margin-bottom: 20px;
+        }
+        .search_area{
+            position: relative;
+            top:11px;
+            width: 500px;
+            height: 24px;
+            padding: 13px 15px;
+            border: solid 3px #02cf5b;
+            outline: none;
+        }
+
+        
+        .search_button{
+            position: relative;
+            top: 11px;
+            width: 60px;
+            height: 57px;
+            border: solid 3px #02cf5b;
+            background-color: #02cf5b;
+            font-weight: 600;
+            color: white;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a class="로고" href="https://www.naver.com/">
+        NAVER
+        </a>
+
+        <span>
+            <form action="https://search.naver.com/search.naver?where" method="GET">
+            <input class="search_area" type="text" name="query">
+            </form>
+        </span>
+        <input class="search_button" type="button" value="검색">
+
+    </header>
+</body>
+</html>
