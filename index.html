@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1190, initial-scale=1.0">
     <title>NAVER</title>
     <style>
+        .header{
+            width: 100%;
+            height: 70px;
+            margin-top: 40px;
+        }
+        body {
+            margin: 0;
+        }
         form{
             display: inline-block;
         }
@@ -43,12 +51,44 @@
             font-weight: 600;
             color: white;
         }
+        .nv_item, .nv_item2, a{
+            float: left;    
+            list-style: none;
+            font-weight: 600;  
+            color: #02cf5b;  
+            cursor: pointer; 
+            text-decoration: none;  
+                       
+        }
+        .nv_2{
+            padding-left: 0px;
+            
+        }
+
+        .nv_item {
+            margin-right: 20px;
+        }
+        .nv_item2 a{
+            margin-right: 20px;
+            color: black;
+            font-weight: 600;
+        }
+        #nv_main{
+            float: left;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            width: 100%;
+            height: 48px;
+            border: 1px solid #dfe3e6;
+            border-left: none;
+            border-right: none;
+        }
 
         
     </style>
 </head>
 <body>
-    <header>
+    <div class="header">
         <a class="로고" href="https://www.naver.com/">
         NAVER
         </a>
@@ -59,7 +99,36 @@
             </form>
         </span>
         <input class="search_button" type="button" value="검색">
+    </div>
+        <div id="nv_main">
+            <ul class="nv_1">
+                <li class="nv_item"><a href="https://mail.naver.com/">메일</a></li>
+                <li class="nv_item"><a href="https://section.cafe.naver.com/">카페</a></li>
+                <li class="nv_item"><a href="https://section.blog.naver.com/BlogHome.nhn?directoryNo=0&currentPage=1&groupId=0">블로그</a></li>
+                <li class="nv_item"><a href="https://kin.naver.com/">지식iN</a></li>
+                <li class="nv_item"><a href="https://shopping.naver.com/">쇼핑</a></li>
+                <li class="nv_item"><a href="https://order.pay.naver.com/home">Pay</a></li>
+                <li class="nv_item"><a href="https://tv.naver.com/">TV</a></li>
+            </ul>
+        <div id="nv_main2">
+            <ul class="nv_2">
+                <li class="nv_item2"><a href="https://dict.naver.com/">사전</a></li>
+                <li class="nv_item2"><a href="https://news.naver.com/">뉴스</a></li>
+                <li class="nv_item2"><a href="https://finance.naver.com/">증권</a></li>
+                <li class="nv_item2"><a href="https://land.naver.com/">부동산</a></li>
+                <li class="nv_item2"><a href="https://map.naver.com/v5/?c=14115234.3721078,4511377.4443853,15,0,0,0,dh">지도</a></li>
+                <li class="nv_item2"><a href="https://movie.naver.com/">영화</a></li>
+                <li class="nv_item2"><a href="https://vibe.naver.com/today">바이브</a></li>
+                <li class="nv_item2"><a href="https://book.naver.com/">책</a></li>
+                <li class="nv_item2"><a href="https://comic.naver.com/index.nhn">웹툰</a></li>             
+                <li class="nv_item2"><a href="https://comic.naver.com/webtoon/list.nhn?titleId=650305">호랑이형님</a></li>             
+                
+                   
+            </ul>
 
-    </header>
+        </div>
+        </div>
+
+    
 </body>
 </html>
