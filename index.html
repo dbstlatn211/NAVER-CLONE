@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=1190, initial-scale=1.0">
+    <meta name="viewport" content="width=1100px, initial-scale=1.0">
     <title>NAVER</title>
     <style>
         .header{
@@ -13,7 +13,8 @@
             margin-left: 150px;
         }
         body {
-            margin: 0;
+            margin: 0px;
+            
         }
         form{
             display: inline-block;
@@ -89,7 +90,7 @@
         }
         .login-1{
             width: 350px;
-            height: 100px;
+            height: 110px;
             border: 1px solid #d9e1e5;
             background-color: #f6f9fa;
             padding: 16px 17px;
@@ -104,17 +105,38 @@
             
             color: grey;
         }
-        .login-content2{            
+        .login-link{            
+            display: block;
             background-color:  #02cf5b; 
             text-align: center;
             border: 1px solid #15c654;            
             border-radius: 2px;
             padding: 15px 0;
             margin-top: 11px;
+            margin-bottom: 11px;
             font-size: 20px;
             color: #fff;
             font-weight: 900;
+            width: 350px;
 
+        }
+        .login-id{
+            color: #404040;            
+            font-size: 12px;
+            line-height: 16px;
+            word-spacing: 4rem;
+        }
+        .login-dg{                                    
+            width: 170px;
+            height: 14px;
+            display: inline-block;
+            background-position: -420px -117px;
+            background-repeat: no-repeat;
+            vertical-align: top;
+            content: '';
+            margin: -1px 1px 1px;     
+            font-weight: 100;        
+            
         }
 
         
@@ -161,16 +183,25 @@
         </div>
         <div class="login-main">
         
-        <div class="login-1">
-            <span class="login-content">
-                네이버를 더 안전하고 편리하게 이용하세요
-            </span>
-        <div class="login-content2">
-            NAVER 로그인
+            <div class="login-1">
+                <span class="login-content">
+                    네이버를 더 안전하고 편리하게 이용하세요
+                </span>
+                    <div class="login-content2">
+                        <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com" class="login-link">NAVER 로그인</a>
+                    </div>
+                        <div class="login-dg">
+                            <a href="https://nid.naver.com/user2/help/idInquiry.nhn?menu=idinquiry" class="login-id">아이디</a>  
+                            <a href="https://nid.naver.com/user2/help/pwInquiry.nhn?menu=pwinquiry" class="login-id" style="margin-left: 7px;">비밀번호찾기</a>
+                        </div>
+                    <div style="display: inline-block; margin-left: 50px;">
+                        <a href="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR&cpno=" style="color: #404040; font-size: 12px;
+                        line-height: 16px; display: inline-block; margin-left: 80px;">회원가입</a>
+                    </div>
+                        
+            </div>
         </div>
-        </div>
-        </div>
-        </div>
+    </div>
         <img style="width: 800px; height: 130px; margin-left: 100px;" src="soho.png">
 
     
